@@ -1,5 +1,6 @@
 #python 3.11.10 compatible
 streamlit==1.39.0
+
 pdfplumber==0.11.4
 docx2txt==0.8
 sentence-transformers==2.7.0

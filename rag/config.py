@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 
 # Paths
-PROJECT_ROOT = Path(os.getenv("PROJECT_ROOT", "."))
+PROJECT_ROOT = Path(os.getenv("PROJECT_ROOT", ""))
 CV_DIR = PROJECT_ROOT / "data" / "samples" / "fake_cvs"
 INDEX_CSV = CV_DIR / "index.csv"
 PERSIST_DIR = Path(os.getenv("RAG_PERSIST_DIR", ".chroma/cv_rag"))

@@ -1,14 +1,10 @@
 """
-query_rag_lc.py
----------------
-LangChain CLI for querying the CV RAG pipeline (modern packages).
+rag_utils.py
+------------
+Shared utilities for building the RAG pipeline.
 """
 
-import argparse
 import os
-
-os.environ["LANGCHAIN_TELEMETRY"] = "false"
-
 from typing import Optional
 
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -22,7 +18,9 @@ from config import (
     OPENROUTER_BASE_URL, CHAT_MODEL, TOP_K
 )
 
+os.environ["LANGCHAIN_TELEMETRY"] = "false"
 
+# Shared prompt
 TEMPLATE = """You are an assistant that answers HR screening questions strictly grounded on the provided CV chunks. 
 Only use the retrieved context to answer. 
 If the answer is not present, but you guess it implicitly is, explain the reasons that led you to that answer.
@@ -38,15 +36,9 @@ Question:
 Answer:
 """
 
-
 def build_chain(top_k: Optional[int] = None):
     """
     Build a RetrievalQA chain over Chroma with HuggingFace embeddings.
-
-    IMPORTANT:
-    - RetrievalQA takes input key "query".
-    - It forwards that into the prompt as variable "question".
-    - Therefore the prompt must declare input_variables ["context", "question"].
     """
     embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
     vectordb = Chroma(
@@ -72,25 +64,3 @@ def build_chain(top_k: Optional[int] = None):
         chain_type_kwargs={"prompt": prompt, "document_variable_name": "context"},
         return_source_documents=True,
     )
-
-
-def main():
-    """CLI entry point."""
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--q", required=True, help="Query string")
-    ap.add_argument("--k", type=int, default=TOP_K, help="Top-k results")
-    args = ap.parse_args()
-
-    chain = build_chain(top_k=args.k)
-    res = chain.invoke({"query": args.q})
-
-    print("---- ANSWER ----")
-    print(res["result"])
-    if res.get("source_documents"):
-        print("\n---- SOURCES ----")
-        for i, doc in enumerate(res["source_documents"], 1):
-            print(f"[{i}] {doc.metadata.get('file')}")
-
-
-if __name__ == "__main__":
-    main()
