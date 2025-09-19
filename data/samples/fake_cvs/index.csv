@@ -1,16 +1,31 @@
 name,email,phone,role,city,country,file,photo
-Alex Smith,alex.smith@email.com,+44 7911 123456,Full-Stack Engineer,Bilbao,United Kingdom,cv_alex-smith_01.pdf,alex-smith_01.jpg
-Alexandra Thompson,alexandra.thompson@email.com,+44 7700 900 000,NLP Engineer,Madrid,United Kingdom,cv_alexandra-thompson_02.pdf,alexandra-thompson_02.jpg
-Alexandra Silva,alexandra.silva@example.com,+351 912 345 678,Backend Engineer,Paris,Portugal,cv_alexandra-silva_03.pdf,alexandra-silva_03.jpg
-Alex Smith,alex.smith@email.com,+44 7911 123456,Backend Engineer,Paris,United Kingdom,cv_alex-smith_04.pdf,alex-smith_04.jpg
-Alexandra Martinez,alexandra.martinez@email.com,+34 600 000 000,Data Analyst,Madrid,Spain,cv_alexandra-martinez_05.pdf,alexandra-martinez_05.jpg
-Alexandra Thompson,alexandra.thompson@email.com,+44 7700 900 987,QA Engineer,Seville,United Kingdom,cv_alexandra-thompson_06.pdf,alexandra-thompson_06.jpg
-Alex Müller,alex.muller@email.com,+49 176 12345678,Full-Stack Engineer,Valencia,Germany,cv_alex-müller_07.pdf,alex-müller_07.jpg
-Alexandre Moreau,alexandre.moreau@email.com,+33 1 23 45 67 89,Data Analyst,Paris,France,cv_alexandre-moreau_08.pdf,alexandre-moreau_08.jpg
-Alexandra Silva,alexandra.silva@example.com,+351 912 345 678,Data Scientist,Bilbao,Portugal,cv_alexandra-silva_09.pdf,alexandra-silva_09.jpg
-Alex Müller,alex.muller@email.com,+49 176 12345678,Machine Learning Engineer,Bilbao,Germany,cv_alex-müller_10.pdf,alex-müller_10.jpg
-Maria Silva,maria.silva@email.com,+351 912 345 678,Computer Vision Engineer,Porto,Portugal,cv_maria-silva_11.pdf,maria-silva_11.jpg
-Marco Rossi,marco.rossi@email.com,+34 600 123 456,Business Analyst,Bilbao,Italy,cv_marco-rossi_12.pdf,marco-rossi_12.jpg
-Alexandre Dubois,alex.dubois@email.com,+33 6 12 34 56 78,Backend Engineer,Milan,France,cv_alexandre-dubois_13.pdf,alexandre-dubois_13.jpg
-Alexandra Silva,alexandra.silva@email.com,+44 7911 123456,Data Engineer,Porto,United Kingdom,cv_alexandra-silva_14.pdf,alexandra-silva_14.jpg
-Alex Mendes,alex.mendes@email.com,+44 7911 123456,MLOps Engineer,Porto,United Kingdom,cv_alex-mendes_15.pdf,alex-mendes_15.jpg
+Anna Kowalska,anna.kowalska@email.com,+48 123 456 789,Senior Software Engineer,Krakow,Poland,cv_anna-kowalska_01.pdf,anna-kowalska_01.png
+Luca Rossi,luca.rossi@example.com,+39 333 1234567,Senior Software Engineer,Milan,Italy,cv_luca-rossi_02.pdf,luca-rossi_02.png
+Carlos Mendez,carlos.mendez@email.com,+34 600 123 456,Data Scientist,Madrid,Spain,cv_carlos-mendez_03.pdf,carlos-mendez_03.png
+Alexandre Dubois,alexandre.dubois@email.com,+33 6 12 34 56 78,Senior Software Engineer,Lyon,France,cv_alexandre-dubois_04.pdf,alexandre-dubois_04.png
+Alicia Mendoza,alicia.mendoza@email.com,+34 600 123 456,Senior Software Engineer,Madrid,Spain,cv_alicia-mendoza_05.pdf,alicia-mendoza_05.png
+Luca Russo,luca.russo@email.com,+39 333 1234567,Senior Software Engineer,Milan,Italy,cv_luca-russo_06.pdf,luca-russo_06.png
+Sophia Müller,sophia.mueller@email.com,+49 176 12345678,Senior Software Engineer,Munich,Germany,cv_sophia-müller_07.pdf,sophia-müller_07.png
+Luca Mancini,luca.mancini@email.com,+39 333 1234567,Software Engineer,Milan,Italy,cv_luca-mancini_08.pdf,luca-mancini_08.png
+Yuki Tanaka,yuki.tanaka@email.com,+81 3-1234-5678,Software Engineer,Tokyo,Japan,cv_yuki-tanaka_09.pdf,yuki-tanaka_09.png
+Emma Müller,emma.muller@email.com,+49 123 4567890,Senior Software Engineer,Munich,Germany,cv_emma-müller_10.pdf,emma-müller_10.png
+Sophie Martin,sophie.martin@email.com,+33 6 12 34 56 78,UX Designer,Paris,France,cv_sophie-martin_11.pdf,sophie-martin_11.png
+Johan Müller,johan.muller@example.com,+49 176 12345678,Senior Software Engineer,Munich,Germany,cv_johan-müller_12.pdf,johan-müller_12.png
+Mariano González,mariano.gonzalez@email.com,+54 11 6096-8745,Senior Software Engineer,Buenos Aires,Argentina,cv_mariano-gonzález_13.pdf,mariano-gonzález_13.png
+Johannes Müller,johannes.muller@email.com,+49 176 12345678,Senior Software Engineer,Munich,Germany,cv_johannes-müller_14.pdf,johannes-müller_14.png
+Alessandra Bianchi,alessandra.bianchi@email.com,+39 06 12345678,Senior Software Engineer,Rome,Italy,cv_alessandra-bianchi_15.pdf,alessandra-bianchi_15.png
+Matteo Rossi,matteo.rossi@example.com,+39 333 1234567,Senior Software Engineer,Milan,Italy,cv_matteo-rossi_16.pdf,matteo-rossi_16.png
+Davide Ricci,davide.ricci@example.com,+39 345 123 4567,Senior Software Engineer,Milan,Italy,cv_davide-ricci_17.pdf,davide-ricci_17.png
+Alexandre Lefèvre,alexandre.lefevre@email.com,+33 1 23 45 67 89,Data Scientist,Lyon,France,cv_alexandre-lefèvre_18.pdf,alexandre-lefèvre_18.png
+Marcelo Rodriguez,marcelo.rodriguez@email.com,+56 9 1234 5678,Civil Engineer,Santiago,Chile,cv_marcelo-rodriguez_19.pdf,marcelo-rodriguez_19.png
+Carlos Silva,carlos.silva@example.com,+351 912 345 678,Senior Software Engineer,Lisbon,Portugal,cv_carlos-silva_20.pdf,carlos-silva_20.png
+Mariana Silva,mariana.silva@email.com,+351 912 345 678,Senior Software Engineer,Lisbon,Portugal,cv_mariana-silva_21.pdf,mariana-silva_21.png
+Hans Müller,hans.mueller@example.com,+49 176 12345678,Senior Software Engineer,Munich,Germany,cv_hans-müller_22.pdf,hans-müller_22.png
+Anna Nowak,anna.nowak@email.com,+48 123 456 789,Senior Software Engineer,Warsaw,Poland,cv_anna-nowak_23.pdf,anna-nowak_23.png
+Amanda Müller,amanda.muller@email.com,+49 176 12345678,Senior Software Engineer,Munich,Germany,cv_amanda-müller_24.pdf,amanda-müller_24.png
+Maria Silva,maria.silva@email.com,+351 912 345 678,Senior Software Engineer,Lisbon,Portugal,cv_maria-silva_25.pdf,maria-silva_25.png
+Lena Nowak,lena.nowak@email.com,+48 123 456 789,Senior Software Engineer,Kraków,Poland,cv_lena-nowak_26.pdf,lena-nowak_26.png
+Francesco Rossi,francesco.rossi@email.com,+39 333 1234567,Senior Software Engineer,Milan,Italy,cv_francesco-rossi_27.pdf,francesco-rossi_27.png
+Marco Rossi,marco.rossi@example.com,+39 333 1234567,Senior Software Engineer,Milan,Italy,cv_marco-rossi_28.pdf,marco-rossi_28.png
+Emma Bergström,emma.bergstrom@outlook.com,+46 70 123 45 67,Software Engineer,Stockholm,Sweden,cv_emma-bergström_29.pdf,emma-bergström_29.png
+Amélie Laurent,amelie.laurent@email.com,+33 1 23 45 67 89,Senior Software Engineer,Lyon,France,cv_amélie-laurent_30.pdf,amélie-laurent_30.png
